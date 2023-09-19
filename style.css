@@ -1,0 +1,217 @@
+
+/* Body  Styling Margin Removed */
+body{
+    background-color: rgba(240, 240, 240 ,240);
+    margin: 0;
+   
+    
+}
+ /* Header Styling*/
+header{
+    height:auto;
+   
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 5px solid;
+    
+   /* Header Avatar Image */
+}
+img{
+    height: 100px;
+    border-radius: 100em;
+}
+   
+/* Header Styling */
+   h1{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+    font-size: 60px;
+
+   }
+   /* Header Styling */
+   p._ss{
+    display: inline-block;
+
+   }
+   /* Header Styling */
+span{
+    font-size: 10px;
+    
+    vertical-align: 30px;
+}
+/* Navbar Styling */
+
+.nav_css  {
+    height:50px;
+    margin-top: 0px;
+    padding-top: 1px;
+    
+    width:100%;
+    background-color:rgba(122, 108, 108, 0.301);
+    
+ 
+    margin-bottom: auto;
+    
+    font-family:sans-serif;
+    word-spacing: 60px;
+    text-align: left;
+    
+  
+   
+   
+
+
+}
+/* Navbar Styling */
+.a_spacing{
+
+
+    word-spacing: 1px;
+}
+/* Navbar Styling */
+a:hover{
+   
+  
+   font-weight: bold;
+   text-decoration: underline 5px rgb(93, 133, 165);
+   cursor:pointer;
+   border-radius: 10px;
+   opacity: 0.75;
+  
+   
+   }
+   /* Banner Styling */
+.hero_image{
+    content:url(https://static.vecteezy.com/system/resources/previews/000/701/690/original/abstract-polygonal-banner-background-vector.jpg);
+    height:70px;
+    width:100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    border-bottom: 2.5px solid;
+    border-top: 2.5px solid;
+
+ 
+
+    
+}
+/* Div(Section) and Aside Styling */
+.div_wrapper{
+    
+display: inline-flex;
+ flex-wrap: wrap;
+ height: 600px;
+ width: 100%;
+ background-color: rgba(240, 240, 240 ,240);
+ margin-top: -20px;
+ overflow: auto;
+
+ }
+
+/* Div(Section) and Aside Styling */
+
+.div_css{
+display: flex;
+flex-direction: column;
+margin-right: 20px;
+
+width: 80%;
+margin-bottom: 10px;
+    
+    
+}
+/* Div(Section) and Aside Styling */
+.aside_css{
+ display: flex;
+ flex-direction: column;
+  
+ Width: 18%;
+ margin-bottom: 0px;
+ border-left: 3px solid;
+
+padding-left: 6px;
+background-color: rgb(229, 239, 239);
+    
+}
+/* Div/Image for empty space Styling */
+
+.div_empty_space{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(240, 240, 240 ,240); 
+    border-top: 3px solid;
+    content: url(https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif);
+   
+
+}
+
+/* Footer Styling */
+footer{
+  bottom: 0;
+  width: 100%;
+height: auto;
+    background-color:rgb(160, 167, 167);
+    border-top: 1px solid;
+    
+}
+
+h5{
+    margin-top: auto;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    
+    
+}
+
+.ul_css{
+    list-style: none;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Responsive Webpage Styling */
+@media screen and (max-width:389px){
+    a {
+        width:100%;
+        float:left;
+        background-color:rgba(122, 108, 108, 0.301) ;
+        
+    }
+}
+    
+
+    @media screen and (max-width:407px){
+        header h1 p1 span {
+            width:100%;
+            float:left;
+            background-color: rgb(241, 241, 241);
+            border-bottom: 5px;
+            border-top: 0px;
+            border-left:0px;
+            border-right:0px;
+            border-style: solid;
+            
+            
+        }
+    }
+
+    @media screen and (max-width:1479px){
+        .aside_css{
+            background-color: rgba(240, 240, 240 ,240);
+            border-left: none;
+            
+            
+        }
+        
+    }
+   
+  
